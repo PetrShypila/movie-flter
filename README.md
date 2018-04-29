@@ -20,3 +20,4 @@ Then you have two options:
 1. `yarn run build` Builds project and puts files into `dist` directory. Ready to be used in production
 2. `yarn start` Starts development server with enabled hot reloading. Should be used for development purpose only.
 Script starts a development server on `localhost:8080` where application is accessible.
+3. In order to execute tests run `yarn run test`
