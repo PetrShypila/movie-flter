@@ -27,8 +27,7 @@ class App extends Component {
         </header>
         <Filter updateFilter={this.updateFilterValue}/>
 
-        <MovieList
-          filterValue={this.state.filterValue} />
+        <MovieList filterValue={this.state.filterValue} />
       </div>
     );
   }

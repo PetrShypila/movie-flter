@@ -1,10 +1,10 @@
-import movies from './movies';
+import { Movies } from './movies';
 
 export function getMovies(filter) {
   const loweredFilter = filter.toLowerCase();
   // Here we store logic of receiving a list of movies, sorting and filtering them.
   // In real world scenario it could be replaced with REST calls.
-  return movies.Movies.sort((a, b) => {
+  return Movies.sort((a, b) => {
     if (a.Title > b.Title) {
       return 1;
     }
