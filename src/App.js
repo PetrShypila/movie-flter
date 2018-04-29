@@ -4,6 +4,7 @@ import './App.css';
 import Filter from './components/Filter';
 import MovieList from './components/MovieList';
 
+// The entry point of the whole application
 class App extends Component {
   constructor() {
     super();
